@@ -6,12 +6,8 @@
 */
 
 @media(max-width: 290px){
-	.about-us-container{
-		max-width: 80px;
-	}
 	.about-us{
 		font-size: 15px;
-		left: 50px;
 	}
 }
 @media(max-width: 670px){
@@ -26,28 +22,57 @@
 }
 @media(max-width: 685px){
 	.section2{
+		max-width: 300px;
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
 		-ms-flex-wrap: wrap;
 		    flex-wrap: wrap;
+		    margin: 0 auto;
 	}
 	.image3,.image1,.image2{
 		margin-top: 10px;
 		max-width: 300px;
 		width: 100%;
+		margin: 0 auto;
+		margin-top: 10px;
 	}
 }
 @media(max-width:  200px){
+	.image-content{
+		top: 40px;
+	}
+	.title2{
+		font-size: 20px;
+		line-height: normal;
+	}
+	.white-box{
+		height: 150px;
+		max-width: 150px;
+		width: 100%;
+	}
+	.circle{
+		max-width: 29px;
+		width: 100%;
+		height: 28px;
+	}
+	.icon{
+		width: 12.73px;
+		height: 12.73px;
+	}
 	.white-box-title{
 		max-width: 80px;
 		width: 100%;
 		font-size: 10px;
+		line-height: normal;
+		margin-top: 5px;
+		margin-bottom: 10px;
 	}
 	.white-box-paragraph{
 		max-width: 150px;
 		width: 100%;
 		font-size: 8px;
 		text-align: center;
+		line-height: normal;
 	}
 }
