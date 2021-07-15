@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../Poppins-SemiBoldItalic.eot');
+    src: url('../Poppins-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../Poppins-SemiBoldItalic.woff2') format('woff2'),
+        url('../Poppins-SemiBoldItalic.woff') format('woff'),
+        url('../Poppins-SemiBoldItalic.ttf') format('truetype'),
+        url('../Poppins-SemiBoldItalic.svg#Poppins-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+
