@@ -188,7 +188,6 @@
 }
 /*section#3*/
 .sect3-container{
-	position: relative;	
 	display: -webkit-box;	
 	display: -ms-flexbox;	
 	display: flex;
@@ -199,16 +198,18 @@
 
 }
 .bg-image2{
+	background-image: url("../images/bg-image2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 	height: 750px;
 	width: 100%;
-	position: absolute;
 }
 .image-content{
 	max-width: 1038px;
 	width: 100%;
-	position: absolute;
-	top: 200px;
 	margin: 0 auto;
+	padding-top: 120px;
 }
 .sect3-aboutus{
 	color: #5863F8;

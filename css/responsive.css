@@ -40,7 +40,7 @@
 }
 @media(max-width:  200px){
 	.image-content{
-		top: 40px;
+		padding-top: 10px;
 	}
 	.title2{
 		font-size: 20px;
@@ -50,6 +50,7 @@
 		height: 150px;
 		max-width: 150px;
 		width: 100%;
+		margin-top: 10px;
 	}
 	.circle{
 		max-width: 29px;
